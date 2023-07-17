@@ -1,0 +1,65 @@
+.ui-draggable-dragging {
+    z-index: 10000 !important;
+}
+
+.ui-draggable {
+    z-index: 10;
+}
+
+.container{
+    position: absolute;
+    top: 40px;
+    left: 410px; 
+    width: 522px; 
+    height: 522px;
+    /*border: 1px solid black;*/
+}
+
+#border-top{
+    height: 30px;
+}
+
+div[id*=cell-]{
+    padding: 0px;
+    margin: 0px;
+    height: 65px;
+    width: 65px;
+}
+div[id*=cell-black-]{
+    background-color:#58a23f ;
+}
+
+div[id*=cell-white-]{
+    background-color:#cef393 ;
+
+}
+
+div[id*=row-]{
+    height: 65px;
+}
+
+span[id*=p-]{
+    width: 65px;
+    height: 65px;
+    margin-left: 8px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.color-path{
+    border: 2px solid #7c8bc4;
+    background-color: yellow !important;
+}
+
+.kill-cell-color{
+    background-color: red !important;
+}
+
+.opposite-side-msg{
+    font-size: 30px;
+    text-align: center;
+}
+
+.color-body-white{
+    background-color: white !important;
+}
